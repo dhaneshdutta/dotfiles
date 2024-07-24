@@ -1,6 +1,3 @@
-# dotfiles
-my personal dotfiles I use as my daily driver.
-
 ## showcase
 ![rice](/assets/image.png)
 
