@@ -5,9 +5,9 @@ Welcome to this dotfiles repository! This collection of configuration files will
 ## 🌟 Preview
 
 <div align="center">
-  <img src="assets/wall1.png" alt="Preview 1" width="30%" style="display: inline-block; margin: 0 1%; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
-  <img src="assets/wall2.png" alt="Preview 2" width="30%" style="display: inline-block; margin: 0 1%; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
-  <img src="assets/wall3.png" alt="Preview 3" width="30%" style="display: inline-block; margin: 0 1%; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
+  <img src="assets/wall1.png" alt="Preview 1" width="80%" style="margin-bottom: 20px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
+  <img src="assets/wall2.png" alt="Preview 2" width="80%" style="margin-bottom: 20px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
+  <img src="assets/wall3.png" alt="Preview 3" width="80%" style="margin-bottom: 20px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
 </div>
 
 Get ready for a visually stunning and highly functional setup!
