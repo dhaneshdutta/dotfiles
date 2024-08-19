@@ -21,7 +21,7 @@ Follow these steps to bring your system to life!
 First, make sure you have all the necessary tools:
 
 ```bash
-yay -S hyprland-git tofi waybar-cava cava cmus btop fastfetch kitty neovim
+yay -S hyprland-git tofi waybar-cava cava cmus btop fastfetch kitty neovim networkmanager thunar swww pywal blueman-git hyprlock-git hyprshot-git pavucontrol nwg-look mpv
 ```
 
 ### Step 2: Clone the Repository
