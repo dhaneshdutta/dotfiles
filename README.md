@@ -64,5 +64,3 @@ These configs are designed to be:
 Feel free to reach out if you have any questions or suggestions!
 
 ---
-
-<p align="center">Made with ❤️ by the dotfiles creator</p>
