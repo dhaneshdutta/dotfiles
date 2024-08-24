@@ -24,6 +24,7 @@ window#waybar {
 #backlight,
 #network,
 #custom-right,
+#custom-vm,
 #custom-left {
    color: @foreground;
    background: @background;

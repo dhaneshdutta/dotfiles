@@ -13,7 +13,7 @@
 //	"modules-left": ["custom/left","temperature","custom/right"],
 	"modules-center": ["custom/left","hyprland/workspaces","custom/right"],
 	"modules-right": ["custom/left","tray","battery","custom/right"],
-	"modules-left": ["custom/left","custom/rofi","clock","custom/right"],
+	"modules-left": ["custom/left","custom/vm","custom/rofi","clock","custom/right"],
 
  
    "network": {
@@ -34,6 +34,12 @@
     // "critical-threshold": 80,
     // "format-critical": "{temperatureC}°C ",
     "format": "{temperatureC}°C "
+
+    },
+        "custom/vm": {
+        "format": " {}",
+        "on-click": "/home/dhanesh/.config/hypr/scripts/vm.sh",
+        "tooltip": false
     },
 
      "custom/rofi": {
