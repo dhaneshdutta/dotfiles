@@ -13,7 +13,7 @@
 //	"modules-left": ["custom/left","temperature","custom/right"],
 	"modules-center": ["custom/left","hyprland/workspaces","custom/right"],
 	"modules-right": ["custom/left","tray","battery","custom/right"],
-	"modules-left": ["custom/left","clock","custom/right"],
+	"modules-left": ["custom/left","custom/rofi","clock","custom/right"],
 
  
    "network": {
@@ -37,8 +37,8 @@
     },
 
      "custom/rofi": {
-        "format": "  {}",
-        "on-click": "~/.config/hypr/scripts/Rofi-launcher.sh"
+        "format": " {}",
+        "on-click": "tofi-drun"
 	},
 
     "hyprland/workspaces": {
@@ -170,4 +170,4 @@
 
 // pywal //
 
-reload_style_on_change:true
+"reload_style_on_change":true
