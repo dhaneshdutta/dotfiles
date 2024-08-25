@@ -8,6 +8,9 @@ commands=(
   "wal -i Pictures/Wallpapers/Sekiro.jpg"
   "wal -i Pictures/Wallpapers/Sekiro1.jpg"  
   "wal -i Pictures/Wallpapers/Sekiro2.png"
+  "wal -i Pictures/Wallpapers/YinYang.png"
+  "wal -i Pictures/Wallpapers/Cyberpunk.png"
+  "wal -i Pictures/Wallpapers/Rave.png"
 )
 
 index_file="/home/dhanesh/.config/hypr/scripts/.wallpaper_index"
@@ -21,9 +24,6 @@ fi
 eval "${commands[$current_index]}"
 
 sleep 1
-
-killall waybar
-waybar &
 
 next_index=$(( (current_index + 1) % ${#commands[@]} ))
 
