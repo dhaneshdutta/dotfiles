@@ -117,8 +117,27 @@ if ask_user "Do you want to install the Powerlevel10k theme?"; then
     echo -e "${CYAN}Installing Powerlevel10k theme...${RESET}"
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
     sed -i 's/ZSH_THEME=".*"/ZSH_THEME="powerlevel10k\/powerlevel10k"/g' ~/.zshrc
+    # Add Powerlevel10k configuration
+    echo -e "${CYAN}Configuring Powerlevel10k...${RESET}"
+    if [ ! -f ~/.p10k.zsh ]; then
+        echo '# For customization, run "p10k configure"'
+        echo '# ' >> ~/.p10k.zsh
+        echo '# Add your custom Powerlevel10k settings here.' >> ~/.p10k.zsh
+    fi
 else
     echo -e "${YELLOW}Powerlevel10k installation skipped.${RESET}"
+fi
+
+# Install Zsh plugins for auto-suggestions and syntax highlighting
+if ask_user "Do you want to install Zsh plugins for auto-suggestions and syntax highlighting?"; then
+    echo -e "${CYAN}Installing Zsh plugins...${RESET}"
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+    # Update .zshrc to include plugins
+    sed -i 's/plugins=(.*)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
+else
+    echo -e "${YELLOW}Zsh plugin installation skipped.${RESET}"
 fi
 
 # Reloading Hyprland
