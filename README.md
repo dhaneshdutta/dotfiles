@@ -1,6 +1,6 @@
 # 🚀 Dotfiles 🚀
 
-Welcome to this dotfiles repository! This collection of configuration files will help you set up a sleek and efficient development environment in no time.
+Streamline your development environment with this curated collection of configuration files. Get a sleek, efficient setup in minutes.
 
 ## 🌟 Preview
 
@@ -10,39 +10,57 @@ Welcome to this dotfiles repository! This collection of configuration files will
   <img src="assets/wall3.png" alt="Preview 3" width="80%" style="margin-bottom: 20px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
 </div>
 
-Get ready for a visually stunning and highly functional setup!
-
 ## 🛠️ Installation
 
-Follow these steps to bring your system to life!
+Before installation, backup your existing configurations:
 
-### Step 1: Install Dependencies
-
-First, make sure you have all the necessary tools:
+### Backing Up Your Existing Configs
 
 ```bash
-yay -S hyprland-git tofi waybar-cava cava cmus btop fastfetch kitty neovim networkmanager thunar swww pywal blueman-git hyprlock-git hyprshot-git pavucontrol nwg-look mpv
+mkdir -p ~/config_backup
+cp -r ~/.config ~/config_backup/
+cp ~/.zshrc ~/config_backup/
+cp ~/.bashrc ~/config_backup/
 ```
 
-### Step 2: Clone the Repository
+Choose between automatic (beta) or manual installation:
 
-Get these dotfiles on your system:
+### Automatic Installation (Beta)
 
-```bash
-git clone https://github.com/dhaneshdutta/dotfiles.git
-```
+1. Remove any previous clone:
+   ```bash
+   rm -rf ~/dotfiles
+   ```
 
-### Step 3: Copy Configuration Files
+2. Clone and install:
+   ```bash
+   git clone https://github.com/dhaneshdutta/dotfiles.git
+   cd dotfiles
+   ./install.sh
+   ```
 
-⚠️ **IMPORTANT: BACKUP YOUR EXISTING CONFIGS FIRST!** ⚠️
+⚠️ **NOTE:** Beta version. Report any issues encountered.
 
-```bash
-cp -r dotfiles/.config dotfiles/.zshrc dotfiles/.bashrc $HOME
-```
+### Manual Installation
+
+1. Install dependencies:
+   ```bash
+   yay -S hyprland-git tofi waybar-cava cava cmus btop fastfetch kitty neovim networkmanager thunar swww pywal blueman-git hyprlock-git hyprshot-git pavucontrol nwg-look mpv
+   ```
+
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/dhaneshdutta/dotfiles.git
+   ```
+
+3. Copy configuration files:
+   ```bash
+   cp -r dotfiles/.config ~/
+   cp dotfiles/.zshrc ~/
+   cp dotfiles/.bashrc ~/
+   ```
 
 ## 🎨 Features
-
-These configs are designed to be:
 
 - 🧱 Immutable across systems
 - 🚀 Easy to install
@@ -58,9 +76,11 @@ These configs are designed to be:
 - Fastfetch for system info
 - Kitty terminal configuration
 - Neovim setup
+- Pywal for dynamic color schemes
+- Custom wallpapers and themes
 
 ## 🎉 Enjoy!
 
-Feel free to reach out if you have any questions or suggestions!
+Questions or suggestions? Feel free to reach out!
 
 ---
