@@ -50,7 +50,7 @@ fi
 # Install dependencies
 if ask_user "Do you want to install the necessary dependencies?"; then
     echo -e "${CYAN}Installing dependencies...${RESET}"
-    yay -S --needed --noconfirm hyprland-git tofi waybar-cava cava cmus btop fastfetch kitty neovim \
+    yay -S --needed --noconfirm hyprland-git xdg-desktop-portal-git tofi waybar-cava cava cmus btop fastfetch kitty neovim \
         networkmanager thunar swww pywal blueman-git hyprlock-git hyprshot-git \
         pavucontrol nwg-look mpv orchis-theme
 else
@@ -88,10 +88,10 @@ fi
 # Copy dotfiles to the home directory
 if ask_user "Do you want to copy the dotfiles to your home directory?"; then
     echo -e "${CYAN}Copying dotfiles...${RESET}"
-    cp -r "$HOME/.dotfiles/.config/"* ~/.config/
-    cp -r "$HOME/.dotfiles/.local/"* ~/.local/
-    cp -r "$HOME/.dotfiles/.scripts/"* ~/.scripts/
-    cp -r "$HOME/.dotfiles/.zshrc" ~/.zshrc
+    cp -r "$HOME/.dotfiles/.config/"* ~/.config/ 2>/dev/null
+    cp -r "$HOME/.dotfiles/.local/"* ~/.local/ 2>/dev/null
+    cp -r "$HOME/.dotfiles/.scripts/"* ~/.scripts/ 2>/dev/null
+    cp -r "$HOME/.dotfiles/.zshrc" ~/.zshrc 2>/dev/null
 else
     echo -e "${YELLOW}Dotfile copying skipped.${RESET}"
 fi
