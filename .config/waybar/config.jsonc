@@ -9,7 +9,7 @@
 
     "modules-center": ["custom/left", "hyprland/workspaces", "custom/right"],
     "modules-right": ["custom/left", "tray", "battery", "custom/right"],
-    "modules-left": ["custom/left", "custom/vm", "custom/rofi", "clock", "custom/right"],
+    "modules-left": ["custom/left", "custom/vm", "clock", "custom/right"],
 
     "custom/vm": {
         "format": " {}",
