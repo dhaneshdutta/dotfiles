@@ -20,7 +20,8 @@ window#waybar {
 #tray,
 #custom-right,
 #custom-vm,
-#custom-left {
+#custom-left,
+#mpris {
    color: @foreground;
    background: @background;
    margin: 4px 0px 4px 0px;
@@ -97,5 +98,11 @@ tooltip {
 }
 
 #custom-vm {
+    padding-right: 10px;
+}
+
+#mpris {
+    color: @color2;
+    padding-left: 10px;
     padding-right: 10px;
 }

@@ -9,17 +9,12 @@
 
     "modules-center": ["custom/left", "hyprland/workspaces", "custom/right"],
     "modules-right": ["custom/left", "tray", "battery", "custom/right"],
-    "modules-left": ["custom/left", "custom/vm", "clock", "custom/right"],
+    "modules-left": ["custom/left", "custom/vm", "clock", "mpris", "custom/right"],
 
     "custom/vm": {
         "format": " {}",
         "on-click": "/home/dhanesh/.config/hypr/scripts/vm.sh",
         "tooltip": false
-    },
-
-    "custom/rofi": {
-        "format": " {}",
-        "on-click": "tofi-drun"
     },
 
     "hyprland/workspaces": {
@@ -61,6 +56,15 @@
         "format": " ",
         "interval": "once",
         "tooltip": false
+    },
+
+    "mpris": {
+        "format": "{player_icon} {artist} - {title}",
+        "format-paused": "{player_icon} {artist} - {title}",
+        "player-icons": {
+            "default": "🎵"
+        },
+        "max-length": 60
     },
 
     "reload_style_on_change": true
