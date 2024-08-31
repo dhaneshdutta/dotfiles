@@ -8,13 +8,18 @@
     "gtk-layer-shell": true,
 
     "modules-center": ["custom/left", "hyprland/workspaces", "custom/right"],
-    "modules-right": ["custom/left", "tray", "battery", "custom/vm", "custom/right"],
+    "modules-right": ["custom/left", "tray", "battery", "custom/vm", "custom/power", "custom/right"],
     "modules-left": ["custom/left", "clock", "mpris", "custom/right"],
 
     "custom/vm": {
         "format": " {}",
         "on-click": "/home/dhanesh/.config/hypr/scripts/vm.sh",
         "tooltip": false
+    },
+
+    "custom/power": {
+        "format": " {}",
+        "on-click": "wlogout"
     },
 
     "hyprland/workspaces": {

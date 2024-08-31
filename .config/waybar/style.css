@@ -21,6 +21,7 @@ window#waybar {
 #custom-right,
 #custom-vm,
 #custom-left,
+#custom-power,
 #mpris {
    color: @foreground;
    background: @background;
@@ -105,4 +106,8 @@ tooltip {
     color: @color2;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+#custom-power {
+   padding-left: 5px 
 }
