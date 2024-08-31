@@ -5,9 +5,17 @@ Streamline your development environment with this curated collection of configur
 ## 🌟 Preview
 
 <div align="center">
-  <img src="assets/wall1.png" alt="Preview 1" width="80%" style="margin-bottom: 20px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
-  <img src="assets/wall2.png" alt="Preview 2" width="80%" style="margin-bottom: 20px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
-  <img src="assets/wall3.png" alt="Preview 3" width="80%" style="margin-bottom: 20px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
+  <video src="assets/animations.mp4" width="80%" style="margin-bottom: 10px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;"></video>
+  <p><strong>Custom Animations</strong></p>
+
+  <video src="assets/pywal.mp4" width="80%" style="margin-bottom: 10px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;"></video>
+  <p><strong>Pywal Integration</strong></p>
+
+  <img src="assets/tofi.png" alt="App Launcher" width="80%" style="margin-bottom: 10px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
+  <p><strong>App Launcher</strong></p>
+
+  <img src="assets/waybar.png" alt="Waybar" width="80%" style="margin-bottom: 10px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
+  <p><strong>Waybar integrated with pywal</strong></p>
 </div>
 
 ## 🛠️ Installation
