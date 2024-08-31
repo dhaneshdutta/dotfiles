@@ -1,6 +1,5 @@
 # 🚀 Dotfiles 🚀
 
-Streamline your development environment with this curated collection of configuration files. Get a sleek, efficient setup in minutes.
 
 ## 🌟 Preview
 
