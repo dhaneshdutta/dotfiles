@@ -8,8 +8,8 @@
     "gtk-layer-shell": true,
 
     "modules-center": ["custom/left", "hyprland/workspaces", "custom/right"],
-    "modules-right": ["custom/left", "tray", "battery", "custom/right"],
-    "modules-left": ["custom/left", "custom/vm", "clock", "mpris", "custom/right"],
+    "modules-right": ["custom/left", "tray", "battery", "custom/vm", "custom/right"],
+    "modules-left": ["custom/left", "clock", "mpris", "custom/right"],
 
     "custom/vm": {
         "format": " {}",
@@ -59,12 +59,12 @@
     },
 
     "mpris": {
-        "format": "{player_icon} {artist} - {title}",
-        "format-paused": "{player_icon} {artist} - {title}",
+        "format": "{artist} - {title}",
+        "format-paused": "{artist} - {title}",
         "player-icons": {
             "default": "🎵"
         },
-        "max-length": 60
+        "max-length": 90
     },
 
     "reload_style_on_change": true
