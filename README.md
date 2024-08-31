@@ -4,7 +4,7 @@ Streamline your development environment with this curated collection of configur
 
 ## 🌟 Preview
 
-
+<div align="center">
 https://github.com/user-attachments/assets/8d6bebb5-966b-4b58-ba06-515af05207b1
   <p><strong>Custom Animations</strong></p>
 
