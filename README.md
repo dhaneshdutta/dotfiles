@@ -5,15 +5,13 @@ Streamline your development environment with this curated collection of configur
 ## 🌟 Preview
 
 <div align="center">
-  <a href="assets/animations.mp4">
-    <img src="assets/animations_thumbnail.png" alt="Custom Animations" width="80%" style="margin-bottom: 10px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
-  </a>
-  <p><strong>Custom Animations</strong> (Click to play)</p>
+  <video src="https://github.com/dhaneshdutta/dotfiles/raw/main/assets/animations.mp4" width="80%" controls>
+  </video>
+  <p><strong>Custom Animations</strong></p>
 
-  <a href="assets/pywal.mp4">
-    <img src="assets/pywal_thumbnail.png" alt="Pywal Integration" width="80%" style="margin-bottom: 10px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
-  </a>
-  <p><strong>Pywal Integration</strong> (Click to play)</p>
+  <video src="https://github.com/dhaneshdutta/dotfiles/raw/main/assets/pywal.mp4" width="80%" controls>
+  </video>
+  <p><strong>Pywal Integration</strong></p>
 
   <img src="assets/tofi.png" alt="App Launcher" width="80%" style="margin-bottom: 10px; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
   <p><strong>App Launcher</strong></p>
