@@ -20,6 +20,7 @@ window#waybar {
 #tray,
 #custom-right,
 #custom-vm,
+#custom-macvm,
 #custom-left,
 #custom-power,
 #mpris {
@@ -99,7 +100,14 @@ tooltip {
 }
 
 #custom-vm {
-    padding-left: 10px;	
+    padding-left: 5px;
+    color: @color4;
+}
+
+#custom-macvm {
+    padding-left: 13px;
+    padding-bottom: 0.6px;
+    color: @color4;
 }
 
 #mpris {
@@ -109,5 +117,6 @@ tooltip {
 }
 
 #custom-power {
-   padding-left: 5px 
+   padding-left: 5px;
+   color: @color4;
 }

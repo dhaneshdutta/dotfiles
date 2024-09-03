@@ -8,14 +8,21 @@
     "gtk-layer-shell": true,
 
     "modules-center": ["custom/left", "hyprland/workspaces", "custom/right"],
-    "modules-right": ["custom/left", "tray", "battery", "custom/vm", "custom/power", "custom/right"],
+    "modules-right": ["custom/left", "tray", "battery", "custom/macvm", "custom/vm", "custom/power", "custom/right"],
     "modules-left": ["custom/left", "clock", "mpris", "custom/right"],
 
     "custom/vm": {
-        "format": " {}",
+        "format": " {}",
         "on-click": "/home/dhanesh/.config/hypr/scripts/vm.sh",
         "tooltip": false
     },
+
+    "custom/macvm": {
+        "format": " {}",
+        "on-click": "/home/dhanesh/.config/hypr/scripts/macvm.sh",
+        "tooltip": false
+    },
+
 
     "custom/power": {
         "format": " {}",
@@ -47,8 +54,7 @@
     },
 
     "clock": {
-        "format": "{:%I:%M}",
-        "on-click": "~/.config/eww/scripts/toggle_control_center.sh"
+        "format": "{:%I:%M}"
     },
 
     "custom/left": {
@@ -69,7 +75,7 @@
         "player-icons": {
             "default": "🎵"
         },
-        "max-length": 90
+        "max-length": 80
     },
 
     "reload_style_on_change": true
