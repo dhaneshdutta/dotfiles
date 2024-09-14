@@ -78,6 +78,36 @@
 /home/dhanesh/Music/Daft Punk/Daft Punk - GL (Early Take) [feat. Pharrell Williams and Nile Rodgers].ogg
 /home/dhanesh/Music/Daft Punk/Daft Punk - Prime (2012 Unfinished).ogg
 /home/dhanesh/Music/Daft Punk/Daft Punk - LYTD (Vocoder Tests) [feat. Pharrell Williams].ogg
+/home/dhanesh/Music/Kanye West/Kanye West - All Falls Down.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Jesus Walks.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Through The Wire.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Touch The Sky.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Gold Digger.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Champion.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Stronger.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - I Wonder.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Can't Tell Me Nothing.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Flashing Lights.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Homecoming.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Heartless.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - POWER.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - All Of The Lights.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Devil In A New Dress.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Runaway.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Black Skinhead.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Bound 2.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Father Stretch My Hands Pt. 1.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Famous.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Waves.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - No More Parties In LA.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - All Mine.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Ghost Town.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Violent Crimes.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Follow God.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - God Is.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Praise God.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - Moon.ogg
+/home/dhanesh/Music/Kanye West/Kanye West - True Love.ogg
 /home/dhanesh/Music/Lana Del Rey/Lana Del Rey - Born To Die.ogg
 /home/dhanesh/Music/Lana Del Rey/Lana Del Rey - Video Games.ogg
 /home/dhanesh/Music/Lana Del Rey/Lana Del Rey - Diet Mountain Dew.ogg
@@ -250,8 +280,73 @@
 /home/dhanesh/Music/Queen/Queen - Don't Stop Me Now - ...Revisited.ogg
 /home/dhanesh/Music/Queen/Queen - Face It Alone.ogg
 /home/dhanesh/Music/Queen/Queen - I Want It All - Single Version.ogg
-/home/dhanesh/Music/Daft Punk/The Weeknd - Starboy.ogg
-/home/dhanesh/Music/Daft Punk/The Weeknd - I Feel It Coming.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Creep.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Thinking About You.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Blow Out.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - High and Dry.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Fake Plastic Trees.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Just.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Black Star.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Street Spirit (Fade Out).ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Paranoid Android.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Subterranean Homesick Alien.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Exit Music (For A Film).ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Let Down.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Karma Police.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - No Surprises.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Everything In Its Right Place.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - How to Disappear Completely.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Optimistic.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Idioteque.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - There, There.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Nude.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Weird Fishes_ Arpeggi.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - All I Need.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Reckoner.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - House Of Cards.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Jigsaw Falling Into Place.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Present Tense.ogg
+/home/dhanesh/Music/Radiohead/Radiohead - Lift.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Half Full Glass Of Wine.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Sundown Syndrome.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Remember Me.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - It Is Not Meant To Be.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Desire Be Desire Go.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Alter Ego.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Lucidity.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Why Won't You Make Up Your Mind?.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Solitude Is Bliss.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Endors Toi.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Apocalypse Dreams.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Mind Mischief.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Why Won't They Talk To Me?.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Feels Like We Only Go Backwards.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Keep On Lying.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Elephant.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - She Just Won't Believe Me.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Beverly Laurel.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Let It Happen.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Nangs.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Yes I'm Changing.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Eventually.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - The Less I Know The Better.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Disciples.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - New Person, Same Old Mistakes.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - List Of People (To Try And Forget About).ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Powerlines.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Taxi’s Here.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Patience.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Instant Destiny.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Borderline.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Breathe Deeper.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Lost In Yesterday.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Is It True.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Glimmer.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - One More Hour.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - The Boat I Row.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - No Choice.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Journey To The Real World.ogg
+/home/dhanesh/Music/Tame Impala/Tame Impala - Wings Of Time - From the Motion Picture Dungeons & Dragons: Honor Among Thieves.ogg
 /home/dhanesh/Music/TV Girl/TV Girl - She Smokes in Bed.ogg
 /home/dhanesh/Music/TV Girl/TV Girl - Laura.ogg
 /home/dhanesh/Music/TV Girl/TV Girl - My Girlfriend.ogg

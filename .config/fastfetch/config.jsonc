@@ -25,11 +25,11 @@
         {
             "type": "disk",
             "folders": "/"
+        },
+        {
+            "type": "colors",
+            "paddingLeft": 10,
+            "symbol": "circle"
         }
-//        {
-//            "type": "colors",
-//            "paddingLeft": 10,
-//            "symbol": "circle"
-//        }
     ]
 }

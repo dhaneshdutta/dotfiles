@@ -37,3 +37,9 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+-- pywal
+
+local nvim_config_path = vim.fn.stdpath('config')
+local python_script = nvim_config_path .. "/pywal/chadwal.py"
+os.execute("python3 " .. python_script .. " &> /dev/null &")

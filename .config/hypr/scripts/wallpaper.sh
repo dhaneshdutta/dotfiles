@@ -10,6 +10,9 @@ commands=(
   "wal -i Pictures/Wallpapers/Sekiro2.png"
   "wal -i Pictures/Wallpapers/YinYang.png"
   "wal -i Pictures/Wallpapers/Cyberpunk.png"
+  "wal -i Pictures/Wallpapers/Wukong.png"
+  "wal -i Pictures/Wallpapers/Galaxy.png"
+  "wal -i Pictures/Wallpapers/LegoSW.png"
   "wal -i Pictures/Wallpapers/Rave.png"
 )
 

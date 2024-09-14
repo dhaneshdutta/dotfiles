@@ -1,3 +1,30 @@
+colorscheme dracula
+colorscheme zenburn
+colorscheme xterm-white
+colorscheme spotify
+colorscheme solarized-light
+colorscheme solarized-dark
+colorscheme night
+colorscheme jellybeans
+colorscheme gray-88
+colorscheme cyan
+colorscheme amazon
+colorscheme green-mono-88
+colorscheme green
+colorscheme rc
+colorscheme default
+colorscheme gruvbox
+colorscheme nord
+colorscheme
+q
+%d
+w
+colorset spotify
+colorset
+color-scheme
+clear
+delete
+clear 
+clear-history
 colorscheme set default
 win-remove
-colorscheme spotify
