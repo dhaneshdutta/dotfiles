@@ -23,6 +23,7 @@ window#waybar {
 #custom-macvm,
 #custom-left,
 #custom-power,
+#custom-bluetooth,
 #mpris {
    color: @foreground;
    background: @background;
@@ -119,4 +120,9 @@ tooltip {
 #custom-power {
    padding-left: 5px;
    color: @color4;
+}
+
+#custom-bluetooth{
+   padding-right: 5px;
+   color: @color5;
 }

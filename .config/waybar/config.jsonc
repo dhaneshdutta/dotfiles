@@ -17,6 +17,12 @@
         "tooltip": false
     },
 
+    "custom/bluetooth": {
+        "format": " {}",
+        "on-click": "blueman-manager",
+        "tooltip": false
+    },    
+
     "custom/macvm": {
         "format": " {}",
         "on-click": "/home/dhanesh/.config/hypr/scripts/macvm.sh",
@@ -75,7 +81,7 @@
         "player-icons": {
             "default": "🎵"
         },
-        "max-length": 80
+        "max-length": 85
     },
 
     "reload_style_on_change": true
