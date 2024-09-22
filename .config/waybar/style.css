@@ -73,7 +73,7 @@ tooltip {
 
 #custom-rofi {
     color: @color4; 
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 #battery {

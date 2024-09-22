@@ -9,13 +9,20 @@
 
     "modules-center": ["custom/left", "hyprland/workspaces", "custom/right"],
     "modules-right": ["custom/left", "tray", "battery", "custom/macvm", "custom/vm", "custom/power", "custom/right"],
-    "modules-left": ["custom/left", "clock", "mpris", "custom/right"],
+    "modules-left": ["custom/left", "custom/rofi", "clock", "mpris", "custom/right"],
 
     "custom/vm": {
         "format": " {}",
         "on-click": "/home/dhanesh/.config/hypr/scripts/vm.sh",
         "tooltip": false
     },
+
+    "custom/rofi": {
+        "format": "󰣇 {}",
+        "on-click": "wofi --show drun",
+        "tooltip": false
+    },
+
 
     "custom/bluetooth": {
         "format": " {}",
