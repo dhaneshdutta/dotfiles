@@ -31,25 +31,6 @@ cp -r ~/.config ~/config_backup/
 cp ~/.zshrc ~/config_backup/
 cp ~/.bashrc ~/config_backup/
 ```
-
-Choose between automatic (beta) or manual installation:
-
-### Automatic Installation (Beta)
-
-1. Remove any previous clone:
-   ```bash
-   rm -rf ~/dotfiles
-   ```
-
-2. Clone and install:
-   ```bash
-   git clone https://github.com/dhaneshdutta/dotfiles.git
-   cd dotfiles
-   ./install.sh
-   ```
-
-⚠️ **NOTE:** Beta version. Report any issues encountered.
-
 ### Manual Installation
 
 1. Install dependencies:
