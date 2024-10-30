@@ -8,7 +8,7 @@
     "gtk-layer-shell": true,
 
     "modules-center": ["custom/left", "hyprland/workspaces", "custom/right"],
-    "modules-right": ["custom/left", "tray", "battery", "custom/macvm", "custom/vm", "custom/power", "custom/right"],
+    "modules-right": ["custom/left", "tray", "battery", "pulseaudio", "backlight", "custom/vm", "custom/power", "custom/right"],
     "modules-left": ["custom/left", "custom/rofi", "clock", "mpris", "custom/right"],
 
     "custom/vm": {
@@ -19,10 +19,9 @@
 
     "custom/rofi": {
         "format": "󰣇 {}",
-        "on-click": "wofi --show drun",
+        "on-click": "rofi -show drun",
         "tooltip": false
     },
-
 
     "custom/bluetooth": {
         "format": " {}",
@@ -35,7 +34,6 @@
         "on-click": "/home/dhanesh/.config/hypr/scripts/macvm.sh",
         "tooltip": false
     },
-
 
     "custom/power": {
         "format": " {}",
@@ -89,6 +87,29 @@
             "default": "🎵"
         },
         "max-length": 85
+    },
+
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-muted": "󰝟 ",
+        "format-icons": {
+            "headphone": " ",
+            "hands-free": " ",
+            "headset": " ",
+            "phone": " ",
+            "portable": "󰓃 ",
+            "car": "󰄍 ",
+            "default": [" ", " ", " "]
+        },
+        "on-click": "pavucontrol",
+        "scroll-step": 1
+    },
+
+    "backlight": {
+        "format": "{icon}",
+        "format-icons": ["󰃞 ", "󰃝 ", "󰃟 ", "󰃠 "],
+        "on-scroll-up": "brightnessctl set +5%",
+        "on-scroll-down": "brightnessctl set 5%-"
     },
 
     "reload_style_on_change": true

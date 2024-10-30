@@ -24,7 +24,9 @@ window#waybar {
 #custom-left,
 #custom-power,
 #custom-bluetooth,
-#mpris {
+#mpris,
+#pulseaudio,
+#backlight {
    color: @foreground;
    background: @background;
    margin: 4px 0px 4px 0px;
@@ -81,7 +83,7 @@ tooltip {
 }
 
 #tray {
-    padding-right: 12px;
+    padding-right: 10px;
 }
 
 #clock {
@@ -125,4 +127,14 @@ tooltip {
 #custom-bluetooth{
    padding-right: 5px;
    color: @color5;
+}
+
+#pulseaudio {
+    color: @color12;
+    padding-left: 10px;
+}
+
+#backlight {
+    color: @color12;
+    padding-left: 8px;
 }

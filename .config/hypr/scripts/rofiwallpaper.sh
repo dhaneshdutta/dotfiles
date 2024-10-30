@@ -6,36 +6,59 @@ CACHE_DIR="$HOME/.cache/wallpaper-rofi"
 mkdir -p "$CACHE_DIR"
 
 generate_menu() {
-    for img in "$WALLPAPER_DIR"/*.{jpg,jpeg,png}; do
+    for img in "$WALLPAPER_DIR"/*.{jpg,jpeg,png,gif}; do
+        [ -f "$img" ] || continue
         filename=$(basename "$img")
         cached_thumb="$CACHE_DIR/${filename%.*}.png"
         
-        if [ ! -f "$cached_thumb" ]; then
-            convert "$img" -thumbnail 200x200^ -gravity center -extent 200x200 "$cached_thumb"
+        if [ ! -f "$cached_thumb" ] || [ "$img" -nt "$cached_thumb" ]; then
+            if [[ "$img" == *.gif ]]; then
+                convert "$img[0]" -thumbnail 160x160^ -gravity center -extent 160x160 "$cached_thumb"
+            else
+                convert "$img" -thumbnail 160x160^ -gravity center -extent 160x160 "$cached_thumb"
+            fi
         fi
         
-        echo -en "$filename\0icon\x1f$cached_thumb\n"
+        printf "%s\0icon\x1f%s\n" "$filename" "$cached_thumb"
     done
 }
 
 change_wallpaper() {
     local wallpaper="$WALLPAPER_DIR/$1"
     
-    # Change wallpaper with swww
-    swww img "$wallpaper" --transition-type grow --transition-pos 1,1 --transition-duration 1.5 --transition-fps 60 --transition-angle 60
+    if command -v swww &> /dev/null; then
+        if [[ "$wallpaper" == *.gif ]]; then
+            swww img "$wallpaper" \
+                --transition-type grow \
+                --transition-angle 30 \
+                --transition-step 90 \
+                --transition-duration 2 \
+                --transition-fps 60 \
+                --transition-bezier .65,.05,.36,1 \
+                --gif
+        else
+            swww img "$wallpaper" \
+                --transition-type grow \
+                --transition-angle 30 \
+                --transition-step 90 \
+                --transition-duration 2 \
+                --transition-fps 60 \
+                --transition-bezier .65,.05,.36,1
+        fi
+    elif command -v swaybg &> /dev/null; then
+        swaybg -i "$wallpaper" -m fill &
+    else
+        echo "Error: Neither swww nor swaybg found. Please install one of them."
+        exit 1
+    fi
     
-    # Generate color scheme with pywal
-    wal -i "$wallpaper" -n
-    
-    # Reload Rofi theme
-    pkill -USR1 rofi
+    if command -v wal &> /dev/null; then
+        wal -i "$wallpaper" -n
+    fi
 }
 
 main() {
-    # Source pywal colors
-    . "$HOME/.cache/wal/colors.sh"
-    
-    chosen=$(generate_menu | rofi -dmenu -i -p "Select Wallpaper" -theme ~/.config/rofi/wallpaper-theme.rasi)
+    chosen=$(generate_menu | rofi -dmenu -theme ~/.config/rofi/wallpaper-theme.rasi -show-icons -matching fuzzy -sort -sorting-method fzf -i)
     
     if [ -n "$chosen" ]; then
         change_wallpaper "$chosen"

@@ -1,0 +1,153 @@
+configuration {
+    font: "Source Code Pro SemiBold 12";
+    show-icons: true;
+    icon-theme: "Papirus";
+    drun-display-format: "{name}";
+    disable-history: false;
+    fullscreen: false;
+    hide-scrollbar: true;
+    sidebar-mode: false;
+}
+
+* {
+    background: #00000000;
+    background-color: #00000020;
+    background-alt: #00000000;
+    text-color: #EFEFEF;
+    primary: #A3BE8C;
+    secondary: #8FBCBB;
+    urgent: #BF616A;
+}
+
+window {
+    transparency: "real";
+    background-color: #00000065;
+    text-color: #EFEFEF;
+    border: 2px;
+    border-color: #00000020;
+    border-radius: 10px;
+    width: 900px;
+    location: center;
+    x-offset: 0;
+    y-offset: 0;
+}
+
+prompt {
+    enabled: false;
+}
+
+button {
+    action: "ok";
+    str: " ";
+    font: "FantasqueSansMono Nerd Font 16";
+    expand: false;
+    text-color: #EFEFEF;
+    background-color: @background-alt;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+}
+
+entry {
+    background-color: @background-alt;
+    text-color: #EFEFEF;
+    expand: true;
+    vertical-align: 0.5;
+    horizontal-align: 0;
+    placeholder: "Search";
+    placeholder-color: #EFEFEF;
+    blink: true;
+}
+
+entry-wrapper {
+    orientation: horizontal;
+    margin: 0 12px 0 12px;
+    spacing: 24px;
+    vertical-align: 0.5;
+    background-color: @background-alt;
+    children: [ button, entry ];
+}
+
+inputbar {
+    padding: 14px;
+    margin: 10px 10px 14px 10px;
+    background-color: #00000020;
+    text-color: @foreground;
+    expand: false;
+    border-radius: 9px;
+    position: north;
+    children: [ entry-wrapper ];
+}
+
+listview {
+    background-color: #00000000;
+    spacing: 0;
+    cycle: true;
+    dynamic: true;
+    scrollbar: false;
+    layout: vertical;
+    columns: 4;
+    lines: 2;
+    margin: 0 10px 10px 10px;
+}
+
+mainbox {
+    background-color: #00000000;
+    children: [ inputbar, listview ];
+    spacing: 6px;
+    margin: 10px;
+}
+
+element {
+    background-color: #00000000;
+    text-color: #EFEFEF;
+    orientation: vertical;
+    border-radius: 12px;
+    margin: 0px 5px 0px 5px;
+    padding: 10px 0px 10px 0px;
+}
+
+element-icon {
+    size: 160px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #00000000;
+}
+
+element-text {
+    expand: true;
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+    margin: 5px 10px 0px 10px;
+    background-color: #00000000;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    background-color: @urgent;
+    text-color: @foreground;
+    border-radius: 9px;
+}
+
+element normal.active,
+element alternate.active {
+    background-color: @background-alt;
+    text-color: @foreground;
+}
+
+element selected {
+    background-color: #ffffff15;
+    text-color: #ffffff;
+    border: 2px;
+    border-color: #ffffff30;
+    border-radius: 12px;
+}
+
+element selected.urgent {
+    background-color: @urgent;
+    text-color: @foreground;
+}
+
+element selected.active {
+    background-color: @background-alt;
+    color: @foreground;
+}
