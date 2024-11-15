@@ -70,10 +70,10 @@ decoration {
     active_opacity = 1.0
     inactive_opacity = 0.8
 
-#    drop_shadow = false
-#    shadow_range = 4
-#    shadow_render_power = 3
-#    col.shadow = rgba(1a1a1aee)
+    drop_shadow = false
+    shadow_range = 4
+    shadow_render_power = 3
+    col.shadow = rgba(1a1a1aee)
 
     # https://wiki.hyprland.org/Configuring/Variables/#blur
     blur {
@@ -301,7 +301,6 @@ windowrulev2 = opacity 0.8, class:([Ss]potify)
 windowrulev2 = opacity 0.7, class:([Nn]otion)
 windowrulev2 = opacity 0.8, class:(org.pulseaudio.pavucontrol)
 windowrulev2 = opacity 0.8, class:(jetbrains-studio)
-windowrulev2 = opacity 0.7, class:([Ll]ocalsend)
 windowrulev2 = opacity 0.7, class:([Nn]emo)
 windowrulev2 = opacity 0.7, class:(xdg-desktop-portal-gtk)
 windowrulev2 = opacity 0.7, class:(Android-file-transfer)
@@ -316,3 +315,4 @@ windowrulev2 = idleinhibit fullscreen, fullscreen:1
 # Disable blur for LibreWolf in fullscreen
 windowrulev2 = opacity 1.0, LibreWolf, fullscreen:1
 windowrulev2 = opacity 1.0, Stremio, fullscreen:1
+

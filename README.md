@@ -35,7 +35,7 @@ cp ~/.bashrc ~/config_backup/
 
 1. Install dependencies:
    ```bash
-   yay -S hyprland-git tofi waybar-cava cava cmus btop fastfetch kitty neovim networkmanager thunar swww pywal blueman-git hyprlock-git hyprshot-git pavucontrol nwg-look mpv
+   yay -S hyprland-git tofi waybar-cava cava cmus btop fastfetch kitty neovim networkmanager network-manager-applet thunar swww pywal blueman-git hyprlock-git hyprshot-git pavucontrol nwg-look nwg-desktops mpv sxiv
    ```
 
 2. Clone the repository:
